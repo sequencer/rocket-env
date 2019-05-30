@@ -1,0 +1,3 @@
+#!/bin/bash
+export LDFLAGS="-lgloss"
+export RISCV=$(dirname $(realpath $0))

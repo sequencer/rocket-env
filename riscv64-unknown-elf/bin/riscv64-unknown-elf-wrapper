@@ -1,0 +1,2 @@
+#!/bin/bash
+exec "$(basename ${0/riscv64-unknown-elf/riscv-none-embed})" $@
